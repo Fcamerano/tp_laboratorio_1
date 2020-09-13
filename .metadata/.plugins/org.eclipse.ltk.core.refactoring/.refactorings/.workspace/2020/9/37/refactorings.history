@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;tpCalculadora1/src/inputc&apos;" deleteContents="false" description="Delete resource &apos;tpCalculadora1/src/inputc&apos;" element1="/tpCalculadora1/src/inputc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1599960985559"/>
+</session>
