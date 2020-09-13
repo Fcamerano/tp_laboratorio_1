@@ -1,0 +1,6 @@
+22:19:29 **** Incremental Build of configuration Debug for project tp1calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1calculadora.o" "..\\src\\tp1calculadora.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
+gcc -o tp1calculadora.exe "src\\input.o" "src\\tp1calculadora.o" 
+Info: Nothing to build for tp1calculadora
