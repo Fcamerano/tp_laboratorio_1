@@ -1,6 +1,51 @@
-22:41:00 **** Rebuild of configuration Debug for project tpCalculadora1 ****
+20:26:04 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\input.o" "..\\src\\input.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpCalculadora1.o" "..\\src\\tpCalculadora1.c" 
-gcc -o tpCalculadora1.exe "src\\input.o" "src\\tpCalculadora1.o" 
-Info: Nothing to build for tpCalculadora1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpEmpleados2.o" "..\\src\\tpEmpleados2.c" 
+..\src\tpEmpleados2.c: In function 'main':
+..\src\tpEmpleados2.c:54:5: warning: implicit declaration of function 'modificarDatos'; did you mean 'mostrarDatos'? [-Wimplicit-function-declaration]
+   54 |     modificarDatos(aEmpleados, IdIngresado);
+      |     ^~~~~~~~~~~~~~
+      |     mostrarDatos
+gcc -o tpEmpleados2.exe "src\\aEmpleados.o" "src\\tpEmpleados2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\tpEmpleados2.o: in function `main':
+C:\Users\Fran\TpsProgramacion1\tpEmpleados2\Debug/../src/tpEmpleados2.c:54: undefined reference to `modificarDatos'
+collect2.exe: error: ld returned 1 exit status
+20:26:32 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aEmpleados.o" "..\\src\\aEmpleados.c" 
+..\src\aEmpleados.c: In function 'modificarDatos':
+..\src\aEmpleados.c:84:16: error: 'salario' undeclared (first use in this function)
+   84 |   scanf("%d", &salario);
+      |                ^~~~~~~
+..\src\aEmpleados.c:84:16: note: each undeclared identifier is reported only once for each function it appears in
+..\src\aEmpleados.c:88:16: error: 'sector' undeclared (first use in this function)
+   88 |   scanf("%d", &sector);
+      |                ^~~~~~
+20:26:58 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aEmpleados.o" "..\\src\\aEmpleados.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpEmpleados2.o" "..\\src\\tpEmpleados2.c" 
+gcc -o tpEmpleados2.exe "src\\aEmpleados.o" "src\\tpEmpleados2.o" 
+Info: Nothing to build for tpEmpleados2
+20:35:35 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpEmpleados2.o" "..\\src\\tpEmpleados2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aEmpleados.o" "..\\src\\aEmpleados.c" 
+..\src\aEmpleados.c: In function 'eliminarUsuarioPorId':
+..\src\aEmpleados.c:119:26: error: assignment to expression with array type
+  119 |   array[posicion].nombre = "";
+      |                          ^
+..\src\aEmpleados.c:120:28: error: assignment to expression with array type
+  120 |   array[posicion].apellido = "";
+      |                            ^
+20:35:50 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aEmpleados.o" "..\\src\\aEmpleados.c" 
+gcc -o tpEmpleados2.exe "src\\aEmpleados.o" "src\\tpEmpleados2.o" 
+Info: Nothing to build for tpEmpleados2
+20:38:05 **** Incremental Build of configuration Debug for project tpEmpleados2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\aEmpleados.o" "..\\src\\aEmpleados.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpEmpleados2.o" "..\\src\\tpEmpleados2.c" 
+gcc -o tpEmpleados2.exe "src\\aEmpleados.o" "src\\tpEmpleados2.o" 
+Info: Nothing to build for tpEmpleados2
